@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20634" started-at="2018-07-18T06:02:04Z" finished-at="2018-07-18T06:02:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20634" started-at="2018-07-18T06:02:04Z" finished-at="2018-07-18T06:02:25Z">
+      <class name="test.RestAssuredTest">
+        <test-method status="PASS" signature="verifyStatusCodeForACity()[pri:0, instance:test.RestAssuredTest@1a5fe33]" name="verifyStatusCodeForACity" duration-ms="3495" started-at="2018-07-18T11:32:04Z" finished-at="2018-07-18T11:32:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCodeForACity -->
+        <test-method status="PASS" signature="verifyStatusCodeForInvalidCity()[pri:0, instance:test.RestAssuredTest@1a5fe33]" name="verifyStatusCodeForInvalidCity" duration-ms="1031" started-at="2018-07-18T11:32:08Z" finished-at="2018-07-18T11:32:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCodeForInvalidCity -->
+        <test-method status="PASS" signature="verifyFaultMessageForInvalidCity()[pri:0, instance:test.RestAssuredTest@1a5fe33]" name="verifyFaultMessageForInvalidCity" duration-ms="1119" started-at="2018-07-18T11:32:09Z" finished-at="2018-07-18T11:32:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFaultMessageForInvalidCity -->
+        <test-method status="PASS" signature="getWeatherStatusLine()[pri:0, instance:test.RestAssuredTest@1a5fe33]" name="getWeatherStatusLine" duration-ms="11722" started-at="2018-07-18T11:32:10Z" finished-at="2018-07-18T11:32:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeatherStatusLine -->
+        <test-method status="PASS" signature="getWeatherHeaders()[pri:0, instance:test.RestAssuredTest@1a5fe33]" name="getWeatherHeaders" duration-ms="906" started-at="2018-07-18T11:32:21Z" finished-at="2018-07-18T11:32:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeatherHeaders -->
+        <test-method status="PASS" signature="verifyCityInWeatherMessageBodyUsingGson()[pri:0, instance:test.RestAssuredTest@1a5fe33]" name="verifyCityInWeatherMessageBodyUsingGson" duration-ms="973" started-at="2018-07-18T11:32:22Z" finished-at="2018-07-18T11:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCityInWeatherMessageBodyUsingGson -->
+        <test-method status="PASS" signature="verifyCityInJsonResponseUsingJsonPath()[pri:0, instance:test.RestAssuredTest@1a5fe33]" name="verifyCityInJsonResponseUsingJsonPath" duration-ms="1358" started-at="2018-07-18T11:32:23Z" finished-at="2018-07-18T11:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCityInJsonResponseUsingJsonPath -->
+      </class> <!-- test.RestAssuredTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
